@@ -204,6 +204,17 @@ i {
     margin-top: 5%;
 }
 
+footer {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 0.7em;
+    text-align: center;
+    color: #BD4551;
+    clear: both;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
 @media screen and (min-width: 500px) {
     .main-title {
         font-size: 10vw;
@@ -264,6 +275,11 @@ i {
     .artist-name {
         margin-top: 3.5%;
     }
+
+    footer {
+        padding-top: 7%;
+        padding-bottom: 2%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -279,5 +295,10 @@ i {
         width: 20%;
         padding: 6.5vh;
         height: 65vh;
+    }
+    
+    footer {
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 }
